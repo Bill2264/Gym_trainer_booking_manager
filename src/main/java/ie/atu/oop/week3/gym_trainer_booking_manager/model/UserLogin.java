@@ -8,8 +8,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class UserLogin {
-    @NotBlank(message = "Username is required")
-    private String name;
     @Email(message = "Email is required")
     private String email;
     @NotBlank(message = "password is required")
