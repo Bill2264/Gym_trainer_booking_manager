@@ -7,12 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class UserSignupService {
-    private final List<Login> userDetails = new ArrayList<>();
+public class TrainerSignupService {
+    private final List<Login> trainerDetails = new ArrayList<>();
     public Login Signup(Login login) {
-        userDetails.add(login);
+        trainerDetails.add(login);
         return login;
     }
-    public List<Login> getUserDetails(){return userDetails;}
+    public List<Login> getTrainerDetails(){return trainerDetails;}
 }
-

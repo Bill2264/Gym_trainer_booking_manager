@@ -7,7 +7,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class UserLogin {
+public class Login {
     @Email(message = "Email is required")
     private String email;
     @NotBlank(message = "password is required")
