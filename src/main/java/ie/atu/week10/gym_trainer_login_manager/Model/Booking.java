@@ -27,7 +27,6 @@ public class Booking {
     private String trainerName;
     @NotBlank(message = "User name is required")
     private String userName;
-    @NotBlank
     private LocalDate bookingDate;
     @Min(value = 6, message = "Start Hour must be 6 or greater")
     @Max(value = 19, message = "Start Hour must be 19 or less")
